@@ -65,3 +65,4 @@
 
 # ATTENTION
 ~ Jika ingin menghentikan atau menyalakan MySQL, cukup search di window (bar bagian bawah kiri)lalu ketik services -> lalu cari MySQL80 lalu tekan -> lalu tekan tombol stop atau sebaliknya yaitu start.
+- jika ingin login ke MySQL, cukup search CMD di window, lalu masukan/ketik "mysql -uroot -p". Lalu jika ingin mengecek versi MySQL, cukup dengan perintah "mysql
