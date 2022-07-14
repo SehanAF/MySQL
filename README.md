@@ -62,3 +62,6 @@
 ~ MariaDB Sebenarnya fork dari MySQL, jadi apa yang bisa dilakukan di MySQL bisa dilakukan di MariaDB.
 ~ Sehingga sekarang jangan terlalu bingung jika ada MySQL dan MariaDB, karena sebenarnya itu dari source code yang sama, mungkin ada perbedaan kecil, namun secara garis besar sebenarnya tetap sama.
 ~ https://mariadb.org/
+
+# ATTENTION
+~ Jika ingin menghentikan atau menyalakan MySQL, cukup search di window (bar bagian bawah kiri)lalu ketik services -> lalu cari MySQL80 lalu tekan -> lalu tekan tombol stop atau sebaliknya yaitu start.
