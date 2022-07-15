@@ -15,6 +15,9 @@
 ~ Setiap melakukan perintah di CMD MySQL, wajib menggunakan akhiran ; contoh nya jika ingin mengecek versi MySQL " select version(); ". Kalau tidak ada akhiran ; si perintah tersebut tidak akan dikirim.
 ~ Jika ingin melihat Database, cukup ke cmd lalu ketikan perintah " show databases; "
 ~ Cara membuat Database baru di CMD. Untuk membuat database caranya sangat sederhana yaitu perintah nya cukup menggunakan "create database nama_database; ". Untuk nama_database harus jangan ada spasi nya,harus menggunakan underscore " _ " dsb. Jadi biasanya di MySQL itu kebanyakan orang bikin nama database, nama table, nama kolom itu selalu memakai huruf kecil semua, jadi jarang menggunakan huruf besar. Walaupun tidak ada aturannya juga, jadi jika ingin menggunakan huruf besar juga tidak ada masalah. Tapi kebiasaan kebanyakan orang itu selalu menggunakan huruf kecil semua.
+~ Jika ingin menghapus Database,cukup menggunakan perintah " drop database nama_database; ". Perlu diingat jika kita menghapus database maka tabel-tabel atau data di dalam nya akan terhapus semua. Jadi perlu diingat untuk membuat BackUp nya dulu sebelum menghapus database, untuk jaga jaga bila diperlukan.
+~ Jika ingin memilih database yang akan digunakan cukup menggunakan perintah " use nama_database; ". Keuntungan nya dalah jika ingin memasukan table atau data kita harus memilih database terlebih dahulu agar table tersebut bisa disimpan di salah satu database. jika tidak akan terjadi error.
+~ Jika ingin melihat table di database cukup masukan perintah " show tables; "
 
 # Pengenalan Database Management System
 ~ DBMS adalah aplikasi yang digunakan untuk me-manage data.
@@ -29,7 +32,7 @@
 ~ Selain itu relational database memiliki perintah standard menggunakan SQL, sehingga kita mudah ketika ingin berganti-ganti aplikasi database ( seperti MySQL, Oracle, PostgreSQL, dll. )
 
 # Cara Kerja DBMS
-~ Database Client -> Database Management System -> Database file. lebih jelasnya lihat saja di youtube pak eko.
+~ Database Client dikirim ke -> Database Management System lalu dikirim lagi ke -> Database file. lebih jelasnya lihat saja di youtube pak eko.
 
 # Databse Client
 ~ Database client adalah aplikasi yang digunakan untuk berkomunikasi dengan DBMS.
@@ -69,3 +72,23 @@
 ~ MariaDB Sebenarnya fork dari MySQL, jadi apa yang bisa dilakukan di MySQL bisa dilakukan di MariaDB.
 ~ Sehingga sekarang jangan terlalu bingung jika ada MySQL dan MariaDB, karena sebenarnya itu dari source code yang sama, mungkin ada perbedaan kecil, namun secara garis besar sebenarnya tetap sama.
 ~ https://mariadb.org/
+
+# Database
+~ Database adalah tempak kita menyimpan table di MySQL.
+~ Jika kita misalkan table di MySQL adalah sebuah file, maka database adalah folder nya, dimana kita bisa menyimpan banyak table di sebuah database.
+~ Biasanya pembuatan kita akan membuat satu database untuk satu jenis aplikasi, walaupun satu aplikasi bisa menggunakan lebih dari satu database, namun lumrahnya, satu aplikasi akan menggunakan satu database.
+
+# Tipe Data
+~ Saat kita membuat table di Excel, kita bisa menentukan tipe data apa yang kita masukkan ke tiap kolom Excel. Jika di excel tipe data tiap kolom bisa di ubah ubah contoh nya ada sebuah kolom yang dulunya angka lalu saya ubah di baris keberapa menjadi text lalu dibaris ke berapa lagi menjadi tanggal. Nah kalau di MySQL tidak bisa seperti itu, jadi satu kolom itu harus 1 tipe data. 
+~ Di MySQL, kita juga bisa menentukan tipe data tiap kolom yang kita buat di sebuah tabel. 
+~ Ada banyak sekali tipe data yang tersedia di MySQL, dari yang sederhana, sampai yang kompleks.
+~ Biasanya kita akan menggunakan tipe data sesuai dengan kebutuhan kolom yang perlu kita buat.
+
+# Tipe Data per Kolom
+~ Lihat contoh tabel nya di Buku kuning dengan judul Pelajaran Pemrograman pada tanggal 15-07-2022, halaman 42.
+
+# Tipe Data Number
+~ Secara garis besar, tipe data number di MySQL ada dua jenis yaitu :
+~ Integer, atau tipe number bilangan bulat.
+~ Floating Point, atau tipe data number pecahan.
+~ Untuk lihat tabel nya tersedia di buku kuning dengan judul Pelajaran Pemrograman pada tanggal 15-07-2022, halaman 42-43. ]
