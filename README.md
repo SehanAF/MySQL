@@ -14,6 +14,7 @@
 - jika ingin login ke MySQL, cukup search CMD di window, lalu masukan/ketik "mysql -uroot -p". Lalu jika ingin mengecek versi MySQL, cukup dengan perintah "select version(); " .
 ~ Setiap melakukan perintah di CMD MySQL, wajib menggunakan akhiran ; contoh nya jika ingin mengecek versi MySQL " select version(); ". Kalau tidak ada akhiran ; si perintah tersebut tidak akan dikirim.
 ~ Jika ingin melihat Database, cukup ke cmd lalu ketikan perintah " show databases; "
+~ Cara membuat Database baru di CMD. Untuk membuat database caranya sangat sederhana yaitu perintah nya cukup menggunakan "create database nama_database; ". Untuk nama_database harus jangan ada spasi nya,harus menggunakan underscore " _ " dsb. Jadi biasanya di MySQL itu kebanyakan orang bikin nama database, nama table, nama kolom itu selalu memakai huruf kecil semua, jadi jarang menggunakan huruf besar. Walaupun tidak ada aturannya juga, jadi jika ingin menggunakan huruf besar juga tidak ada masalah. Tapi kebiasaan kebanyakan orang itu selalu menggunakan huruf kecil semua.
 
 # Pengenalan Database Management System
 ~ DBMS adalah aplikasi yang digunakan untuk me-manage data.
