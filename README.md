@@ -1,7 +1,7 @@
 # Agenda
-~ Pengenalan MySQL.
-~ Menginstall MySQL.
-~ Tipe Data.
+1. Pengenalan MySQL.
+2. Menginstall MySQL.
+3. Tipe Data.
 ~ Database, Table.
 ~ Insert, Update, Delete, Select. 
 ~ Transaction.
