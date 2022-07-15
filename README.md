@@ -9,6 +9,12 @@
 ~ Join
 ~ Dan lain-lain.
 
+ # Perintah Dan Penjelasan
+~ Jika ingin menghentikan atau menyalakan MySQL, cukup search di window (bar bagian bawah kiri)lalu ketik services -> lalu cari MySQL80 lalu tekan -> lalu tekan tombol stop atau sebaliknya yaitu start.
+- jika ingin login ke MySQL, cukup search CMD di window, lalu masukan/ketik "mysql -uroot -p". Lalu jika ingin mengecek versi MySQL, cukup dengan perintah "select version(); " .
+~ Setiap melakukan perintah di CMD MySQL, wajib menggunakan akhiran ; contoh nya jika ingin mengecek versi MySQL " select version(); ". Kalau tidak ada akhiran ; si perintah tersebut tidak akan dikirim.
+~ Jika ingin melihat Database, cukup ke cmd lalu ketikan perintah " show databases; "
+
 # Pengenalan Database Management System
 ~ DBMS adalah aplikasi yang digunakan untuk me-manage data.
 ~ Tanpa menggunakan DBMS, untuk me-manage data, seperti data produk, data customer, data penjualan, kita harus simpan dalam bentuk file( misal seperti kita menggunakan Excel. )
@@ -62,7 +68,3 @@
 ~ MariaDB Sebenarnya fork dari MySQL, jadi apa yang bisa dilakukan di MySQL bisa dilakukan di MariaDB.
 ~ Sehingga sekarang jangan terlalu bingung jika ada MySQL dan MariaDB, karena sebenarnya itu dari source code yang sama, mungkin ada perbedaan kecil, namun secara garis besar sebenarnya tetap sama.
 ~ https://mariadb.org/
-
-# ATTENTION
-~ Jika ingin menghentikan atau menyalakan MySQL, cukup search di window (bar bagian bawah kiri)lalu ketik services -> lalu cari MySQL80 lalu tekan -> lalu tekan tombol stop atau sebaliknya yaitu start.
-- jika ingin login ke MySQL, cukup search CMD di window, lalu masukan/ketik "mysql -uroot -p". Lalu jika ingin mengecek versi MySQL, cukup dengan perintah "mysql
