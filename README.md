@@ -94,4 +94,5 @@
 ~ Untuk lihat tabel nya tersedia di buku kuning dengan judul Pelajaran Pemrograman pada tanggal 15-07-2022, halaman 42-43. ]
 
 #Gambar Integer
-![Tabel Tipe Data Integer](https://github.com/SehanAF/MySQL/issues/1#issue-1306678097)
+
+https://github.com/SehanAF/MySQL/issues/1#issue-1306678097
